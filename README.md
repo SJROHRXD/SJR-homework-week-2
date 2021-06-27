@@ -1,5 +1,8 @@
 # HomeWork-Week2
 
+## Deployed:
+https://sjrohrxd.github.io/SJR-homework-week-2/
+
 ## Project Description
 This is a portfolio created with the intent of showcasing [future] projects. It will someday be much much prettier.
 The acceptance criteria:
@@ -27,3 +30,6 @@ Christopher Gower - https://unsplash.com/@cgower
 Luca Bravo - https://unsplash.com/@lucabravo
 Scott Graham - https://unsplash.com/@homajob
 Solen Feyissa - https://unsplash.com/@solenfeyissa
+
+## PLEASE NOTE ##
+I am aware that the images and CSS and all of that are not in the preferred folder structure / order - however, when deploying, this kept breaking - despite me ensuring my paths were correct (relative) and all. Please forgive the mess! - SJR
