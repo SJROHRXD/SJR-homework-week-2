@@ -1,0 +1,143 @@
+/* clearing some browser things first */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* adjustments to global box-sizing */
+/* it's possible this is breaking something, I'm still not sure */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* body, general styles */
+body {
+  background: url(./solen-feyissa-LVFaCF4FQhg-unsplash.jpg);
+  color: #333;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* trying to help the in* links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* list styles // bullets are ugly */
+ul {
+  list-style-type: none;
+}
+
+/* link styles // links are usually ugly */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: rgb(29, 29, 29);
+}
+
+/* image styles // within flexboxes */
+img {
+  max-width: 70%;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 2%;
+  margin: 5px;
+}
+
+/* to attempt to make the hover effect work */
+img:hover {
+  max-width: 72%;
+  box-shadow: 0 0 2px 1px rgba(255, 99, 71, 0.199);
+}
+
+/* header styles */
+h1 {
+  margin: 2%;
+}
+
+h1,
+h2 {
+  font-family: sans-serif;
+  color: #333;
+}
+
+/* this is my navbar and it's a little janky */
+.meganav {
+  position: fixed;
+  background-color: rgba(255, 99, 71, 0.144);
+  width: 100%;
+  overflow: auto;
+  top: 0;
+}
+
+.meganav ul {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 600px;
+  margin-bottom: 5px;
+}
+
+/* this is my main chunk of website */
+.slayer {
+  background: rgba(255, 99, 71, 0);
+  height: 70vmax;
+  width: 100vmax;
+  max-width: 900px;
+
+  padding: 1em;
+  margin: 20vh auto 0;
+
+  display: inline-flex;
+  /* flex-direction: column; */
+  /* flex-wrap: nowrap; be aware wrap vs. no wrap kinda like max width */
+  flex-flow: column nowrap; /* combines */
+
+  justify-content: space-around;
+  /* align-items: stretch; */
+  /* align-content: space-around; /* conflicts with align items, only works with multiple lines of content */
+  align-items: center;
+}
+
+/* this applies some settings differently */
+.slayer > * {
+  background-color: rgba(216, 191, 216, 0.699);
+  font-size: 1em; /*might not apply depending on content but still good to know */
+  font-family: sans-serif;
+  font-stretch: semi-expanded; /*might not apply depending on content but still good to know */
+  text-align: center; /*might not apply depending on content but still good to know */
+  margin: 0.5em; /*might not apply depending on content but still good to know */
+  border-radius: 10px;
+  flex-basis: 100%;
+  /* margin-trim: ; unsure on this one, leaving for future things */
+}
+
+/* contact info and styles */
+.cinfo {
+  background: rgba(255, 99, 71, 0);
+
+  padding: 0.5em;
+
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-wrap: nowrap; be aware wrap vs. no wrap kinda like max width */
+  flex-flow: column nowrap; /* combines */
+
+  justify-content: space-around;
+  /* align-items: stretch; */
+  /* align-content: space-around; /* conflicts with align items, only works with multiple lines of content */
+  align-items: center;
+
+  margin: 2%;
+  flex-basis: 100%;
+}
+
+/* I feel like my footer needed something. */
+.footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
