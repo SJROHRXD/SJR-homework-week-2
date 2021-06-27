@@ -1,4 +1,4 @@
-# HomeWork-Week2
+# SJR-homework-week-2
 
 ## Deployed:
 https://sjrohrxd.github.io/SJR-homework-week-2/
