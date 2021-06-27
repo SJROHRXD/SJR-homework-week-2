@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: url(./assets/images/solen-feyissa-LVFaCF4FQhg-unsplash.jpg);
+  color: #333;
+  /*line height idk*/
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*praying this does something*/
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  margin: 1em;
+}
+
+h1,
+h2 {
+  font-family: sans-serif;
+  line-height: 0.8;
+  color: #333;
+}
+
+.meganav {
+  position: fixed;
+  background-color: rgba(255, 99, 71, 0.144);
+  width: 100%;
+}
+
+.slayer {
+  background: rgba(255, 99, 71, 0);
+  height: 80vmax;
+  width: 80vmax;
+  max-width: 1000px;
+  padding: 0.5em;
+  margin: 30vh auto 0;
+
+  display: inline-flex;
+  /* flex-direction: column; */
+  /* flex-wrap: nowrap; be aware wrap vs. no wrap kinda like max width */
+  flex-flow: column nowrap; /* combines */
+
+  position: relative; /* */
+
+  justify-content: space-around;
+  /* align-items: stretch; */
+  align-content: space-around; /* conflicts with align items, only works with multiple lines of content */
+}
+
+.slayer > * {
+  /* potentially use clmslay */
+  background-color: rgba(216, 191, 216, 0.699);
+  font-size: 1em;
+  font-family: sans-serif;
+  font-stretch: semi-expanded;
+  text-align: center;
+  margin: 0.5em;
+  border-radius: 10px;
+  flex-basis: 100%;
+  /* margin-trim: ; */
+}
