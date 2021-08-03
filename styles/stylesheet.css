@@ -2,12 +2,29 @@ li {
   list-style: none;
 }
 
+#navbarorgid {
+  /* background-color: unset; */
+  background-color: rgb(192, 221, 135) !important;
+}
+
+#navbarorgid.navbar.navbar-light.bg-light {
+  text-align: center !important;
+}
+
+/* .navbar { */
+/*  */
+/* } */
+
 #navbarorg {
   flex-direction: row;
   flex-wrap: nowrap;
-  position: relative;
+  /* position: relative; */
   font-size: smaller;
   border-style: none;
+  background-color: rgb(192, 221, 135);
+  margin: unset;
+  text-align: center;
+  /* display:grid; */
 }
 
 #nav4 {
@@ -17,10 +34,9 @@ li {
   font-size: smaller;
   border-style: none;
   justify-content: space-evenly;
-  /* align-items: center;
-  align-content: center; */
   text-align: center;
   box-sizing: unset;
+  background-color: rgb(192, 221, 135);
 }
 
 .list-group-item {
@@ -34,4 +50,92 @@ h5 {
 
 img {
   margin-bottom: 2%;
+  max-width: 1000px;
+}
+
+footer {
+  margin-top: 2%;
+  background-color: rgb(192, 221, 135);
+}
+
+.card {
+  background-color: rgb(192, 221, 135);
+}
+
+body {
+  background-color: rgb(192, 221, 135);
+}
+
+#cinfodiv {
+  background-color: rgb(192, 221, 135);
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding: unset;
+}
+
+.container, .container-lg, .container-md, .container-sm {
+  max-width: unset;
+}
+
+a {
+  color: seagreen;
+}
+
+.btn {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 10px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+h1 {
+  color: #f4511e;
+  text-shadow: slategrey 1px 1px 3px;
+  text-align: center;
+}
+
+.card-header {
+  background-color: rgba(0, 128, 128, 0.096);
+}
+
+#imagesmallplease {
+  max-width: 200px;
+  /* max-height: auto; */
+  border-radius: 50%;
+  /* position: fixed;
+  left: 50%;
+  margin: 100px; */
 }
