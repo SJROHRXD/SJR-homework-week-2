@@ -4,14 +4,14 @@
 https://sjrohrxd.github.io/SJRXD-Portfolio
 
 ## Project Description
-This is a portfolio created with the intent of showcasing [future] projects. It will someday be much much prettier.
+This is a portfolio created with the intent of showcasing projects. It will someday be much much prettier.
 The acceptance criteria:
-  - Name, photo or avatar | Name is front and center ✔
-  - Links to sections about projects | Links in Nav redirect to sections ✔
-  - When clicked, link scrolls to corresponding section | Scroll works ✔
-  - Images enlarge / application images enlarges upon hover (larger in size than the others) | ⚠ somewhat works
-  - Image links to deployed application *** I have none! *** | 🛑 no projects to deploy
-  - They layout is responsive | ⚠ relatively 
+  - Name, photo or avatar ✔
+  - Links to sections about projects ✔
+  - When clicked, link scrolls to corresponding section ✔
+  - Images enlarge / application images enlarges upon hover (larger in size than the others) | REWORK
+  - Image links to deployed application ✔
+  - They layout is responsive | ✔
 
 ## Design Notes // Known Issues
 1. The flexboxes are somewhat broken, as they do not properly *move around* in relation to the Nav and the Contact Info sections
