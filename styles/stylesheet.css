@@ -1,0 +1,37 @@
+li {
+  list-style: none;
+}
+
+#navbarorg {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  font-size: smaller;
+  border-style: none;
+}
+
+#nav4 {
+  display: inline;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-size: smaller;
+  border-style: none;
+  justify-content: space-evenly;
+  /* align-items: center;
+  align-content: center; */
+  text-align: center;
+  box-sizing: unset;
+}
+
+.list-group-item {
+  border-style: none;
+  background-color: transparent;
+}
+
+h5 {
+  text-align: center;
+}
+
+img {
+  margin-bottom: 2%;
+}
