@@ -11,9 +11,6 @@ li {
   text-align: center !important;
 }
 
-/* .navbar { */
-/*  */
-/* } */
 
 #navbarorg {
   flex-direction: row;
@@ -138,4 +135,8 @@ h1 {
   /* position: fixed;
   left: 50%;
   margin: 100px; */
+}
+
+img:hover {
+  box-shadow: 0 0 7px 5px rgba(0, 128, 128, 0.226) !important;
 }
