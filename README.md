@@ -1,7 +1,7 @@
 # SJR-homework-week-2
 
 ## Deployed:
-https://sjrohrxd.github.io/SJR-homework-week-2/
+https://sjrohrxd.github.io/SJRXD-Portfolio
 
 ## Project Description
 This is a portfolio created with the intent of showcasing [future] projects. It will someday be much much prettier.
