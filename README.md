@@ -46,11 +46,17 @@ https://github.com/SJROHRXD/SJRXD-Portfolio/blob/main/RESUMEFOLDER/SJRXD-resume.
   - Image Hover (enlarges // effects) ✔
   - Image links to deployed application ✔
   - They layout is responsive ✔
+ 
 🌼 Updates:
   - Contact Info ✔
   - Links to GitHub, LinkedIn ✔
   - Examples of Student Work ✔
   - Title, Deployed Version, GitHub Repo, Screenshot of App ✔
+
+## Images:
+
+![alt text](https://raw.githubusercontent.com/SJROHRXD/SJRXD-Portfolio/main/images/111.png?raw=true)
+![alt text](https://raw.githubusercontent.com/SJROHRXD/SJRXD-Portfolio/main/images/222.png?raw=true)
 
 ## Design Notes:
 
@@ -61,4 +67,8 @@ https://github.com/SJROHRXD/SJRXD-Portfolio/blob/main/RESUMEFOLDER/SJRXD-resume.
 ## Technologies Used:
 
 🌼🌿 HTML, CSS, and lots of Google
+
+## Credits:
+
+https://unsplash.com/photos/8uZPynIu-rQ - Background Image
 
