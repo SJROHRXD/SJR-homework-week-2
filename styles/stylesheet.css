@@ -1,27 +1,30 @@
+/* LIST STYLES */
 li {
   list-style: none;
 }
 
+.list-group-item {
+  border-style: none;
+  background-color: transparent;
+}
+
+/* NAVBAR ADJUSTMENTS AND STYLES */
 #navbarorgid {
-  /* background-color: unset; */
-  background-color: rgb(192, 221, 135) !important;
+  background-color: rgb(155, 216, 181) !important;
 }
 
 #navbarorgid.navbar.navbar-light.bg-light {
   text-align: center !important;
 }
 
-
 #navbarorg {
   flex-direction: row;
   flex-wrap: nowrap;
-  /* position: relative; */
   font-size: smaller;
   border-style: none;
-  background-color: rgb(192, 221, 135);
+  background-color: rgb(155, 216, 181);
   margin: unset;
   text-align: center;
-  /* display:grid; */
 }
 
 #nav4 {
@@ -33,57 +36,73 @@ li {
   justify-content: space-evenly;
   text-align: center;
   box-sizing: unset;
-  background-color: rgb(192, 221, 135);
+  background-color: rgb(155, 216, 181);
 }
 
-.list-group-item {
-  border-style: none;
-  background-color: transparent;
-}
-
+/* HEADER STYLES */
 h5 {
   text-align: center;
 }
 
-img {
-  margin-bottom: 2%;
-  max-width: 1000px;
+h1 {
+  color: #f41e65;
+  text-shadow: slategrey 1px 1px 3px;
+  text-align: center;
+  /* background-color: rgb(155, 216, 181); */
+  background-image: url("../images/bgattempt.jpg");
 }
 
-footer {
-  margin-top: 2%;
-  background-color: rgb(192, 221, 135);
+.card-header {
+  background-color: rgba(0, 128, 128, 0.096);
 }
 
+/* SECTION BACKGROUND COLOR FOR TESTING */
 .card {
-  background-color: rgb(192, 221, 135);
+  background-color: rgba(155, 216, 181, 0.849);
 }
 
 body {
-  background-color: rgb(192, 221, 135);
+  background-image: url("../images/bgattempt.jpg");
+  /* background-color: rgb(155, 216, 181); */
 }
 
 #cinfodiv {
-  background-color: rgb(192, 221, 135);
+  font-size: large;
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+/* CONTAINER STYLES */
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
   padding: unset;
 }
 
-.container, .container-lg, .container-md, .container-sm {
+.container,
+.container-lg,
+.container-md,
+.container-sm {
   max-width: unset;
 }
 
+/* LINK STYLES */
 a {
   color: seagreen;
 }
 
+a:hover {
+  color: #f41e65;
+}
+
+/* BUTTON STYLES */
 .btn {
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: #f41e65;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-size: 18px;
   padding: 10px;
@@ -101,7 +120,7 @@ a {
 }
 
 .btn span:after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -118,25 +137,37 @@ a {
   right: 0;
 }
 
-h1 {
-  color: #f4511e;
-  text-shadow: slategrey 1px 1px 3px;
-  text-align: center;
+.btn:hover{
+  background-color: seagreen !important;
 }
 
-.card-header {
-  background-color: rgba(0, 128, 128, 0.096);
-}
-
-#imagesmallplease {
-  max-width: 200px;
-  /* max-height: auto; */
-  border-radius: 50%;
-  /* position: fixed;
-  left: 50%;
-  margin: 100px; */
+/* IMAGE STYLES */
+img {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  max-width: 800px;
+  filter: grayscale(90%);
 }
 
 img:hover {
   box-shadow: 0 0 7px 5px rgba(0, 128, 128, 0.226) !important;
+  transform: scale(1.0075);
+  filter: grayscale(0%);
+}
+
+/* AVITAR / PIC STYLES */
+#imagesmallplease {
+  max-width: 200px;
+  border-radius: 50%;
+  filter: grayscale(5%);
+  transform: unset;
+}
+
+#imagesmallplease:hover {
+  transform: unset;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 2%;
 }
