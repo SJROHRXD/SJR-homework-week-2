@@ -52,6 +52,7 @@ https://github.com/SJROHRXD/SJRXD-Portfolio/blob/main/RESUMEFOLDER/SJRXD-resume.
   - Links to GitHub, LinkedIn ✔
   - Examples of Student Work ✔
   - Title, Deployed Version, GitHub Repo, Screenshot of App ✔
+  - Resume Download ✔⭐
 
 ## Images:
 
