@@ -1,21 +1,64 @@
 # SJR-Portfolio
 
 ## Deployed:
+
 https://sjrohrxd.github.io/SJRXD-Portfolio
 
+## Resume:
+
+https://github.com/SJROHRXD/SJRXD-Portfolio/blob/main/RESUMEFOLDER/SJRXD-resume.pdf
+
+## Updates:
+
+🌼🌿 Updates have been made to the following: 
+
+🌼 LinkedIn
+- Bio Statement
+- Photo
+- Link to GitHub Profile
+
+🌼 GitHub Profile
+- Profile Picture
+- Bio Update
+- Email (in bio)
+- Deployed Portfolio (in bio)
+- 2+ Pinned Repo's
+- Followed Classmates
+- Commit History
+
+🌼 Resume
+- Heading
+- Phone Number
+- Email
+- Links to GitHub, LinkedIn
+- Technical Skills w/ listed languages
+- 3 Strong Projects 
+
+
 ## Project Description
-This is a portfolio created with the intent of showcasing projects. It will someday be much much prettier.
-The acceptance criteria:
+
+🌼🌿 This is a portfolio created with the intent of showcasing projects.
+
+🌼 The Acceptance Criteria:
   - Name, photo or avatar ✔
   - Links to sections about projects ✔
   - When clicked, link scrolls to corresponding section ✔
-  - Images [RESPOND] ✔
+  - Image Hover (enlarges // effects) ✔
   - Image links to deployed application ✔
   - They layout is responsive ✔
+🌼 Updates:
+  - Contact Info ✔
+  - Links to GitHub, LinkedIn ✔
+  - Examples of Student Work ✔
+  - Title, Deployed Version, GitHub Repo, Screenshot of App ✔
 
 ## Design Notes:
-- It's a bit ugly, for now.
+
+🌼🌿 It's a bit ugly, but it's getting better.
+
+🌼🌿 Slightly cleaner in mobile than the first version.
 
 ## Technologies Used:
-HTML, CSS, and lots of Google
+
+🌼🌿 HTML, CSS, and lots of Google
 
