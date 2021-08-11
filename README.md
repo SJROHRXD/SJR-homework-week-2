@@ -1,4 +1,4 @@
-# SJR-homework-week-2
+# SJR-Portfolio
 
 ## Deployed:
 https://sjrohrxd.github.io/SJRXD-Portfolio
